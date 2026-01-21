@@ -2,12 +2,13 @@
 /* Your CSS Code here. */
 .holder{
 	display:flex;
-	flex-direction:column;
+	flex-direction:row;
 	width:100vw;
 	height:100vh;
 }
 .item-1{
 align-self:center;
+	justify-content:center;
 	width:100px;
 	height:100px;
 	background-color:red;
